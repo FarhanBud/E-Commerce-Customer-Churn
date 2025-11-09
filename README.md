@@ -1,4 +1,4 @@
-🛒 E-Commerce Customer Churn Prediction
+## 🛒 E-Commerce Customer Churn Prediction
 1. Ringkasan Proyek
 Proyek ini menganalisis perilaku dan data transaksi pelanggan untuk memprediksi kemungkinan churn (berhenti menggunakan layanan) dalam konteks e-commerce. Tujuan utamanya adalah untuk mengidentifikasi pelanggan yang berisiko churn, memahami faktor-faktor penyebabnya, dan memberikan strategi retensi yang dapat ditindaklanjuti.
 
