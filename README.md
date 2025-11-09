@@ -25,26 +25,7 @@ Lingkungan Notebook: Jupyter Notebook
 
 Version Control: Git & GitHub
 
-├── README.md          <- Dokumentasi utama proyek.
-├── data
-│   ├── external       <- Data eksternal (jika ada).
-│   ├── interim        <- Data hasil transformasi sementara.
-│   ├── processed      <- Dataset final untuk modeling.
-│   └── raw            <- Data mentah asli.
-│
-├── models             <- Model yang telah dilatih dan hasil prediksi.
-│
-├── notebooks          <- Notebook Jupyter untuk EDA, modeling, evaluasi.
-│   └── 1.0-fh-churn-analysis.ipynb
-│
-├── references         <- Kamus data dan materi penjelas lainnya.
-│
-├── reports            <- Laporan dan visualisasi hasil analisis.
-│   └── figures        <- Grafik dan plot yang digunakan dalam laporan.
-│
-├── requirements.txt   <- Daftar dependensi lingkungan Python.
-│
-└── src                <- Kode sumber untuk preprocessing, modeling, evaluasi.
+<img width="547" height="421" alt="image" src="https://github.com/user-attachments/assets/29c39f4f-5f00-4269-8056-d19a48e781f6" />
 
 
 5. Ringkasan Temuan
