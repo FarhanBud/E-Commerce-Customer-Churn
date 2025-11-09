@@ -1,60 +1,95 @@
-<h1> [E-Commerce Customer Churn] </h1>
+🛒 E-Commerce Customer Churn Prediction
+1. Ringkasan Proyek
+Proyek ini menganalisis perilaku dan data transaksi pelanggan untuk memprediksi kemungkinan churn (berhenti menggunakan layanan) dalam konteks e-commerce. Tujuan utamanya adalah untuk mengidentifikasi pelanggan yang berisiko churn, memahami faktor-faktor penyebabnya, dan memberikan strategi retensi yang dapat ditindaklanjuti.
 
-## 1. Project Overview
-This project analyzes business data to extract insights, improve decision-making, and identify key trends. The primary focus is to **[Your Problem Statements]**(mention business objectives, such as optimizing sales, reducing operational costs, customer segmentation, etc.).
+🎯 Tujuan Utama:
+Memprediksi churn pelanggan dengan akurasi dan efisiensi tinggi menggunakan machine learning.
 
-Key Objectives:
-- Objective 1: (E.g., Analyze customer purchasing patterns)
-- Objective 2: (E.g., Forecast future sales using machine learning)
-- Objective 3: (E.g., Identify high-value customer segments)
+Mengidentifikasi fitur-fitur penting yang memengaruhi churn, baik dari perilaku maupun demografi.
 
-## 2. Data Sources
-- [Dataset 1](link) - Description of dataset (e.g., Sales data for 2020–2023)
-- [Dataset 2](link) – Description of dataset (e.g., Customer demographic information)
-- ...
+Melakukan segmentasi pelanggan berdasarkan risiko dan nilai ekonomi untuk strategi retensi yang lebih tajam.
 
-## 3. Technologies Used
-- Programming Language: Python (e.g., Pandas, NumPy)
-- Visualization: Matplotlib, Seaborn, Plotly
-- Version Control: Git
-- Others: Jupyter Notebook
-- ...
+2. Sumber Data
+Dataset Pelanggan – Berisi data perilaku, demografi, dan transaksi pelanggan e-commerce.
 
-## 4. Project Structure
+Fitur Turunan – Fitur-fitur yang direkayasa seperti IsNewCustomer, Tenure_Cashback, Complain_LowSat, dll., untuk meningkatkan interpretabilitas dan performa model.
 
-```
-├── README.md          <- The top-level README for developers using this project.
+3. Teknologi yang Digunakan
+Bahasa Pemrograman: Python (Pandas, NumPy, scikit-learn, XGBoost)
+
+Visualisasi: Matplotlib, Seaborn
+
+Modeling: XGBoost, Logistic Regression
+
+Lingkungan Notebook: Jupyter Notebook
+
+Version Control: Git & GitHub
+
+├── README.md          <- Dokumentasi utama proyek.
 ├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── external       <- Data eksternal (jika ada).
+│   ├── interim        <- Data hasil transformasi sementara.
+│   ├── processed      <- Dataset final untuk modeling.
+│   └── raw            <- Data mentah asli.
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
+├── models             <- Model yang telah dilatih dan hasil prediksi.
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Notebook Jupyter untuk EDA, modeling, evaluasi.
+│   └── 1.0-fh-churn-analysis.ipynb
 │
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+├── references         <- Kamus data dan materi penjelas lainnya.
 │
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── reports            <- Laporan dan visualisasi hasil analisis.
+│   └── figures        <- Grafik dan plot yang digunakan dalam laporan.
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── requirements.txt   <- Daftar dependensi lingkungan Python.
 │
-└── src                <- Source code for use in this project.
+└── src                <- Kode sumber untuk preprocessing, modeling, evaluasi.
 
-```
 
-## 5. Summary of Finding
-### 5.1 Business Insight
-In this section, you can present the **actionable insights** derived from the analysis results.
-### 5.2 Actionable Recommendation
-In this section, you can offer **actionable business recommendations** to address the identified problems.
+5. Ringkasan Temuan
+5.1 Insight Bisnis
+Performa Model:
 
-## 6. Contact
-- Name: 
-- Email:
-- Linkedin:
+Precision: 92.79%
+
+Recall: 76.30%
+
+F1 Score: 83.74%
+
+PR AUC: 90.33%
+
+Fitur Penting:
+
+Tenure_Cashback, IsNewCustomer, Complain, LowSatisfaction, PreferredOrderCat_*
+
+Segmentasi Risiko & Nilai Pelanggan:
+<img width="756" height="164" alt="image" src="https://github.com/user-attachments/assets/affcbac3-e424-442a-a606-470fdd119e14" />
+
+* Model berhasil mengidentifikasi pelanggan berisiko tinggi dengan presisi tinggi, memungkinkan strategi retensi yang dapat mencegah kerugian lebih dari Rp 350 juta.
+
+5.2 Rekomendasi Strategis
+Prioritas Retensi:
+
+Pelanggan baru
+
+Pelanggan lama tanpa cashback
+
+Pelanggan dengan keluhan dan kepuasan rendah
+
+Kampanye Tersegmentasi:
+
+Gunakan preferensi kategori belanja dan status pernikahan untuk pendekatan yang lebih personal.
+
+Strategi Operasional:
+
+Integrasikan skor churn ke sistem CRM
+
+Pantau metrik PR AUC dan recall secara berkala untuk mendeteksi drift model
+
+6. Kontak
+Nama: Muhamad Farhan Budiana
+
+Email: [farhan.budiana19@gmail.com]
+
+LinkedIn: (https://www.linkedin.com/in/muhamadfarhanbudiana/)
