@@ -1,0 +1,17 @@
+# Core libraries
+pandas==1.5.3
+numpy==1.24.4
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Modeling
+scikit-learn==1.2.2
+xgboost==1.7.6
+
+# Jupyter environment (optional but recommended)
+jupyterlab==3.6.3
+
+# Utility (optional)
+joblib==1.2.0
