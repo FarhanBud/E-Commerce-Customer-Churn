@@ -65,6 +65,8 @@ Email: [farhan.budiana19@gmail.com]
 LinkedIn: (https://www.linkedin.com/in/muhamadfarhanbudiana/)
 
  Appendix: 
-https://www.canva.com/design/DAG4W6r9FSw/8cSht9EhBDW3V1UzI_ZHOg/edit
-https://drive.google.com/drive/folders/1PITb78NtK9Ra6wOkQdXCIgItZkj29Ves
-https://github.com/FarhanBud/E-Commerce-Customer-Churn
+https://www.canva.com/design/DAG4W6r9FSw/8cSht9EhBDW3V1UzI_ZHOg/edit/
+
+https://drive.google.com/drive/folders/1PITb78NtK9Ra6wOkQdXCIgItZkj29Ves/
+
+https://github.com/FarhanBud/E-Commerce-Customer-Churn/
